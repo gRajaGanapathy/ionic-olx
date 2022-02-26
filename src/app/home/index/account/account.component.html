@@ -1,3 +1,17 @@
-<p>
-  account works!
-</p>
+<ion-item>
+  <ion-avatar>
+    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+  </ion-avatar>
+  <ion-label class="ion-margin-start">
+    <h2>Raja RD</h2>
+    <p>View and Edit Profile</p>
+  </ion-label>
+  <ion-content>
+    <ion-list padding *ngFor="let item of techs">
+      <ion-item>
+        <ion-icon name={{item.icon}}></ion-icon>
+        <ion-label>{{item.discription}}</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-item>
