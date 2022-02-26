@@ -6,30 +6,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./account.component.scss'],
 })
 export class AccountComponent implements OnInit {
-  techs = [
-    {
-      title: 'Help & Support',
-      icon: 'file-tray-full-outline',
-      discription: 'Help center and legal terms'
-    },
-    {
-      title: 'Help & Support',
-      icon: 'file-tray-full-outline',
-      discription: 'Help center and legal terms'
-    },
-    {
-      title: 'Help & Support',
-      icon: 'file-tray-full-outline',
-      discription: 'Help center and legal terms'
-    },
-    {
-      title: 'Help & Support',
-      icon: 'file-tray-full-outline',
-      discription: 'Help center and legal terms'
-    },
-  ]
+  data: Array <object> = [];
 
-  constructor() { }
+  constructor() {
+    this.data = [
+      {
+        title: 'Help & Support',
+        icon: 'file-tray-full-outline',
+        discription: 'Help center and legal terms'
+      },
+      {
+        title: 'Help & Support',
+        icon: 'file-tray-full-outline',
+        discription: 'Help center and legal terms'
+      },
+      {
+        title: 'Help & Support',
+        icon: 'file-tray-full-outline',
+        discription: 'Help center and legal terms'
+      },
+      {
+        title: 'Help & Support',
+        icon: 'file-tray-full-outline',
+        discription: 'Help center and legal terms'
+      },
+    ]
+  
+  }
 
   ngOnInit() {}
 
