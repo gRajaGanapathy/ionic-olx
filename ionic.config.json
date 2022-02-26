@@ -1,0 +1,7 @@
+{
+  "name": "MagicPin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
